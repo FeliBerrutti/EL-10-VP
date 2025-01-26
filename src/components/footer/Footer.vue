@@ -332,11 +332,11 @@
                             fbIcon];
 
     function handleContactUsIcon(auxIndex){
-        return this.contactUsIcons[auxIndex];
+        return contactUsIcons[auxIndex];
     };
 
     function handleFollowUsIcon(auxIndex){
-        return this.followUsIcons[auxIndex];
+        return followUsIcons[auxIndex];
     };
 
     function handleContactUsClick(index){
