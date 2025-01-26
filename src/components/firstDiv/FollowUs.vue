@@ -262,11 +262,11 @@
     const followUsOptionIcon = [igIcon, fbIcon];
 
     function handleFollowUsIMG(aux){
-        return this.followUsOptionIcon[aux];
+        return followUsOptionIcon[aux];
     };
 
     function handleFollowUsText(aux){
-        return this.followUsOptionsText[aux];
+        return followUsOptionsText[aux];
     };
 
     function handleFollowUsOptionClick(index){
