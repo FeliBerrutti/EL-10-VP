@@ -158,8 +158,8 @@
         #menuOptionsContainer{
             min-width: 300px;
             max-width: 400px;
-            min-height: 500px;
-            max-height: 550px;
+            min-height: 300px;
+            max-height: 400px;
         }
 
         .menuOption{
@@ -186,8 +186,8 @@
         #menuOptionsContainer{
             min-width: 300px;
             max-width: 400px;
-            min-height: 500px;
-            max-height: 550px;
+            min-height: 300px;
+            max-height: 400px;
         }
 
         .menuOption{
@@ -214,8 +214,8 @@
         #menuOptionsContainer{
             min-width: 300px;
             max-width: 400px;
-            min-height: 500px;
-            max-height: 550px;
+            min-height: 300px;
+            max-height: 400px;
         }
 
         .menuOption{
@@ -241,9 +241,9 @@
 
         #menuOptionsContainer{
             min-width: 300px;
-            max-width: 470px;
-            min-height: 500px;
-            max-height: 550px;
+            max-width: 400px;
+            min-height: 300px;
+            max-height: 400px;
         }
 
         .menuOption{
@@ -269,9 +269,9 @@
 
         #menuOptionsContainer{
             min-width: 300px;
-            max-width: 470px;
-            min-height: 500px;
-            max-height: 550px;
+            max-width: 400px;
+            min-height: 300px;
+            max-height: 400px;
         }
 
         .menuOption{
