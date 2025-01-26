@@ -316,7 +316,7 @@
 <script setup>
     import icon from '@/assets/aprobado.png';
     import mailIcon from '@/assets/MAIL.png';
-    import wppIcon from '@/assets/footerWPP.png'
+    import wppIcon from '@/assets/footerWPP.png';
     import mapsIcon from '@/assets/footerMAPS.png';
     import igIcon from '@/assets/footerIG.png';
     import fbIcon from '@/assets/footerFB.png'
