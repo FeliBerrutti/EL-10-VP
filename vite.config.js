@@ -10,6 +10,7 @@ export default defineConfig({
     vue(),
     ghPages(),
   ],
+  base: '/EL-10-VP/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
