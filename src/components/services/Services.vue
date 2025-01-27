@@ -11,27 +11,19 @@
             </div>
         </div>
         <div id="servicesCarrousellContainer">
+            <button class="carrousellButton" @click="handleCarroussellButtonLeft(auxCarrousell)"></button>
             <div id="servicesCarrousell">
                 <div id="carrousellIMG">
                     <img :src="handleCarrousellIMG()" alt="">
                 </div>
             </div>
-            <div id="servicesCarrousellButtons">
-                <button class="carrousellButton" @click="handleCarroussellButtonLeft(auxCarrousell)">
-
-                </button>
-                <button class="carrousellButton" @click="handleCarrousellButtonRight(auxCarrousell)">
-
-                </button>
-            </div>
+            <button class="carrousellButton" @click="handleCarrousellButtonRight(auxCarrousell)"></button>
         </div>
     </div>
 </template>
 
 <style>
     #servicesContainer{
-        border: 2px solid black;
-        border-radius: 20px;
         width: 100%;
         padding: 0.5%;
         overflow: hidden;
@@ -60,7 +52,7 @@
         width: 99%;
         padding: 0.1%;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         justify-content: center;
     }
@@ -76,8 +68,7 @@
     }
 
     #carrousellIMG{
-        padding: 0.1%;
-        width: 98%;
+        width: 100%;
         height: auto;
     }
 
@@ -86,22 +77,11 @@
         height: 100%;
     }
 
-    #servicesCarrousellButtons{
-        width: 90%;
-        margin-top: 2%;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
-
     .carrousellButton{
         border: 2px solid black;
-        border-radius: 5px;
-        width: 45%;
+        border-radius: 100%;
+        width: 10%;
         padding: 1%;
-        margin-right: 2%;
-        margin-left: 2%;
     }
     
 
@@ -136,15 +116,10 @@
         }
 
 
-
-        #servicesCarrousellButtons{
+        .carrousellButton{
             min-height: 35px;
             max-height: 35px;
-        }
-
-        .carrousellButton{
-            min-height: 32px;
-            max-height: 32px;
+            width: 13%;
         }
     }
 
@@ -182,8 +157,10 @@
         }
 
         .carrousellButton{
-            min-height: 32px;
-            max-height: 32px;
+            min-height: 40px;
+            max-height: 50px;
+            min-width: 40px;
+            max-width: 40px;
         }
     }
 
@@ -221,8 +198,10 @@
         }
 
         .carrousellButton{
-            min-height: 32px;
-            max-height: 32px;
+            min-height: 40px;
+            max-height: 50px;
+            min-width: 40px;
+            max-width: 40px;
         }
     }
 
@@ -254,15 +233,11 @@
             max-height: 250px;
         }
 
-
-        #servicesCarrousellButtons{
-            min-height: 35px;
-            max-height: 35px;
-        }
-
         .carrousellButton{
-            min-height: 32px;
-            max-height: 32px;
+            min-height: 40px;
+            max-height: 50px;
+            min-width: 40px;
+            max-width: 40px;
         }
     }
 
@@ -300,8 +275,10 @@
         }
 
         .carrousellButton{
-            min-height: 32px;
-            max-height: 32px;
+            min-height: 40px;
+            max-height: 50px;
+            min-width: 40px;
+            max-width: 40px;
         }
     }
 
@@ -337,8 +314,10 @@
         }
 
         .carrousellButton{
-            min-height: 32px;
-            max-height: 32px;
+            min-height: 40px;
+            max-height: 50px;
+            min-width: 40px;
+            max-width: 40px;
         }
     }
 
@@ -378,10 +357,10 @@
         }
 
         .carrousellButton{
-            min-height: 50px;
+            min-height: 40px;
             max-height: 50px;
-            min-width: 300px;
-            max-width: 350px;
+            min-width: 40px;
+            max-width: 40px;
         }
     }
 </style>
