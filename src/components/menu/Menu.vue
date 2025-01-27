@@ -30,7 +30,6 @@
     .slide-enter-from,
     .slide-leave-to{
         opacity: 0;
-        max-height: 0;
     }
 
     #menuContainer{
