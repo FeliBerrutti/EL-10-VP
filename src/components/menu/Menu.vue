@@ -5,6 +5,7 @@
             <hr>
             <hr>
         </div>
+        <Transition name="slide">
         <div id="menuOptionsContainer" v-show="isMenuVisible">
             <div class="menuOption" v-for="(x, index) in menuOptionsList"
             :key="index" @click="handleMenuOption(index)">
@@ -16,10 +17,22 @@
                 </div>
             </div>
         </div>
+        </Transition>
     </div>
 </template>
 
 <style>
+    .slide-enter-active,
+    .slide-leave-active{
+        transition: max-height 0.5s ease, opacity 0.5s ease;
+    }
+
+    .slide-enter-from,
+    .slide-leave-to{
+        opacity: 0;
+        max-height: 0;
+    }
+
     #menuContainer{
         width: 100%;
         height: auto;

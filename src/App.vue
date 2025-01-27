@@ -2,11 +2,19 @@
   <Menu @changeVisibility="handleVisibilityChange"></Menu>
   <div id="container">
     <div id="box">
+        <Transition name="fade">
       <Presentation v-if="visibleComponent === 'presentation'"></Presentation>
+        </Transition>
+        <Transition name="fade">
       <ContactUs v-if="visibleComponent === 'isContactUsVisible'"
       @changeVisibility="handleVisibilityChange"></ContactUs>
+        </Transition>
+        <Transition name="fade">
       <FollowUs v-if="visibleComponent === 'isFollowUsVisible'"></FollowUs>
+        </Transition>
+        <Transition name="fade">
       <MailForm v-if="visibleComponent === 'isContactUsMailVisible'"></MailForm>
+        </Transition>
     </div>
   </div>
   <Services ref="auxScroll"></Services>
@@ -15,6 +23,16 @@
 </template>
 
 <style scoped>
+    .fade-enter-active,
+    .fade-leave-active{
+        transition: opacity 1s ease;
+    }
+
+    .fade-enter-from,
+    .fade-leave-to{
+        opacity: 0;
+    }
+
   #container{
         background-image: url('@/assets/font.jpg');
         background-position: center;
