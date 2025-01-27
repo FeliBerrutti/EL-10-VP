@@ -1,8 +1,5 @@
 <template>
     <div id="contactUsContainer">
-            <div id="contactUsTitle">
-                <h3><b>¿Como querés contactarnos?</b></h3>
-            </div>
             <div id="contactUsOptionsContainer">
                 <div class="contactUsOption" v-for="(x, index) in contactUsOptionsText" 
                 :key="index" @click="handleContactUsOptionClick(index)">
@@ -41,7 +38,7 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        margin-top: 10%;
+        margin-top: 25%;
     }
 
     .contactUsOption{
