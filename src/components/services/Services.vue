@@ -11,13 +11,17 @@
             </div>
         </div>
         <div id="servicesCarrousellContainer">
-            <button class="carrousellButton" @click="handleCarroussellButtonLeft(auxCarrousell)"></button>
+            <button class="carrousellButton" @click="handleCarroussellButtonLeft(auxCarrousell)">
+                <img :src="leftArrow" alt="">
+            </button>
             <div id="servicesCarrousell">
                 <div id="carrousellIMG">
                     <img :src="handleCarrousellIMG()" alt="">
                 </div>
             </div>
-            <button class="carrousellButton" @click="handleCarrousellButtonRight(auxCarrousell)"></button>
+            <button class="carrousellButton" @click="handleCarrousellButtonRight(auxCarrousell)">
+                <img :src="rightArrow" alt="">
+            </button>
         </div>
     </div>
 </template>
@@ -58,7 +62,7 @@
     }
 
     #servicesCarrousell{
-        border: 2px solid black;
+        border: 1.5px solid black;
         border-radius: 10px;
         width: 90%;
         overflow: hidden;
@@ -78,12 +82,21 @@
     }
 
     .carrousellButton{
-        border: 2px solid black;
-        border-radius: 100%;
+        border: 1px solid black;
+        border-radius: 10px;
+        background: rgba(220,220,220,0.2);
         width: 10%;
         padding: 1%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
     
+    .carrousellButton img{
+        width: 100%;
+        height: 100%;
+    }
 
     .carrousellButton:hover{
         cursor: pointer;
@@ -369,7 +382,9 @@
     import { ref } from 'vue';
     import fontIMG from '@/assets/font.jpg';
     import truckImg from '@/assets/truck.jpg';
-    import wppIMG from '@/assets/wppLogo.png'
+    import wppIMG from '@/assets/wppLogo.png';
+    import rightArrow from '@/assets/rightArrow.png';
+    import leftArrow from '@/assets/leftArrow.png';
 
     const auxCarrousell = ref(0);
 
