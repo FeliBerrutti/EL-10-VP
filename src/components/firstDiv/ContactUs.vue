@@ -129,8 +129,8 @@
         .contactUsOption{
             min-width: 145px;
             max-width: 200px;
-            min-height: 180px;
-            max-height: 250px;
+            min-height: 200px;
+            max-height: 210px;
             margin: 0.3%;
         }
 
@@ -164,13 +164,15 @@
         .contactUsOption{
             min-width: 145px;
             max-width: 300px;
-            min-height: 180px;
-            max-height: 350px;
+            min-height: 310px;
+            max-height: 310px;
         }
 
         .contactUsOptionIcon{
             margin-top: 5%;
             min-height: 90px;
+            max-height: 200px;
+            margin-top: 3%;
         }
 
         .contactUsOptionText{
