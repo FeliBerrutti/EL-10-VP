@@ -17,7 +17,7 @@
 <style>
     #followUsContainer{
         width: 100%;
-        height: auto;
+        height: 100%;
         padding: 1%;
     }
 
@@ -74,6 +74,10 @@
     }
 
     @media(max-width: 320px){
+        #followUsContainer{
+            min-height: 530px;
+            max-height: 580px;
+        }
 
         #followUsOptionsContainer{
             min-height: 500px;
