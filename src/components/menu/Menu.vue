@@ -168,10 +168,19 @@
             min-width: 250px;
             max-width: 300px;
             margin-top: 3%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-left: 20%;
         }
 
         .menuOptionText{
             font-size: 150%;
+        }
+
+        .menuOptionIcon{
+            display: none;
         }
     }
 
@@ -196,10 +205,19 @@
             min-width: 250px;
             max-width: 300px;
             margin-top: 3%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
         }
 
         .menuOptionText{
             font-size: 150%;
+            margin-left: 20%;
+        }
+
+        .menuOptionIcon{
+            display: none;
         }
     }
 
@@ -219,15 +237,25 @@
         }
 
         .menuOption{
+            border: 2px solid red;
             min-height: 38px;
             max-height: 45px;
             min-width: 250px;
             max-width: 300px;
             margin-top: 3%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
         }
 
         .menuOptionText{
             font-size: 150%;
+            margin-left: 20%;
+        }
+
+        .menuOptionIcon{
+            display: none;
         }
     }
 
@@ -252,10 +280,18 @@
             min-width: 270px;
             max-width: 320px;
             margin-top: 2%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
         }
 
         .menuOptionText{
             font-size: 190%;
+        }
+
+        .menuOptionIcon{
+            display: none;
         }
     }
 
@@ -280,10 +316,18 @@
             min-width: 270px;
             max-width: 320px;
             margin-top: 2%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
         }
 
         .menuOptionText{
             font-size: 190%;
+        }
+
+        .menuOptionIcon{
+            display: none;
         }
     }
 </style>
