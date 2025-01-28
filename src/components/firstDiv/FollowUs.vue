@@ -16,14 +16,12 @@
 
 <style>
     #followUsContainer{
-        border: 2px solid green;
         width: 100%;
         height: 100%;
         padding: 1%;
     }
 
     #followUsOptionsContainer{
-        border: 2px solid green;
         width: 100%;
         height: 70%;
         padding: 1%;
@@ -36,7 +34,7 @@
     .followUsOption{
         border: 4px solid white;
         border-radius: 20px;
-        width: 40%;
+        width: 45%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -107,11 +105,15 @@
         #followUsOptionsContainer{
             min-height: 550px;
             max-height: 600px;
+            padding: 0.1%;
         }
 
         .followUsOption{
-            min-height: 200px;
-            max-height: 220px;
+            min-width: 145px;
+            max-width: 200px;
+            min-height: 180px;
+            max-height: 250px;
+            margin: 0.3%;
         }
 
         .followUsOptionIcon{
@@ -131,12 +133,14 @@
         #followUsOptionsContainer{
             min-height: 550px;
             max-height: 600px;
+            padding: 0.1%;
         }
 
         .followUsOption{
-            min-height: 300px;
+            min-width: 145px;
+            max-width: 300px;
+            min-height: 180px;
             max-height: 350px;
-            min-width: 200px;
         }
 
         .followUsOptionIcon{
@@ -169,6 +173,7 @@
 
         .followUsOptionIcon{
             min-height: 90px;
+            margin-bottom: -3%;
         }
 
         .followUsOptionText{
@@ -187,8 +192,8 @@
         }
 
         .followUsOption{
-            min-height: 450px;
-            max-height: 500px;
+            min-height: 500px;
+            max-height: 550px;
             min-width: 320px;
             max-width: 550px;
         }
@@ -210,14 +215,14 @@
         #followUsOptionsContainer{
             min-height: 600px;
             max-height: 600px;
-            margin-top: 3%;
         }
 
         .followUsOption{
-            min-height: 480px;
-            max-height: 600px;
+            min-height: 600px;
+            max-height: 620px;
             min-width: 320px;
-            max-width: 360px;
+            max-width: 550px;
+            margin-top: 3%;
         }
 
         .followUsOptionIcon{
@@ -237,15 +242,15 @@
 #followUsOptionsContainer{
     min-height: 600px;
     max-height: 600px;
-    margin-top: 3%;
 }
 
-.followUsOption{
-    min-height: 480px;
-    max-height: 600px;
-    min-width: 320px;
-    max-width: 360px;
-}
+    .followUsOption{
+        min-height: 600px;
+        max-height: 620px;
+        min-width: 320px;
+        max-width: 550px;
+        margin-top: 3%;
+    }
 
 .followUsOptionIcon{
     min-height: 90px;
