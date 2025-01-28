@@ -40,18 +40,17 @@
 
     .contactUsOption{
         border: 4px solid white;
-        background: linear-gradient(to right, rgba(10,10,10,0.5), 
-                                                rgba(150,150,150,0.5),
-                                              rgba(10,10,10,0.5));
         border-radius: 20px;
-        width: 40%;
-        padding: 1%;
+        width: 45%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         margin-right: 3%;
         margin-left: 3%;
+        background: linear-gradient(to right, rgba(10,10,10,0.5), 
+                                                rgba(150,150,150,0.5),
+                                              rgba(10,10,10,0.5));
     }
 
     .contactUsOption:hover{
@@ -61,11 +60,7 @@
 
     .contactUsOptionIcon{
         width: 80%;
-        padding: 1%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        padding: 0.1%;
     }
 
     .contactUsOptionIcon img{
@@ -74,15 +69,15 @@
     }
 
     .contactUsOptionText{
-        width: 95%;
+        width: 90%;
         padding: 1%;
-        margin-top: 7%;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        margin-top: 15%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        text-overflow: ellipsis;
-        white-space: nowrap;
     }
 
     @media(max-width: 320px){
@@ -100,14 +95,14 @@
             min-height: 500px;
         }
 
-        .contactUsOption{
+        .followUsOption{
             min-height: 150px;
             max-height: 150px;
         }
 
         .contactUsOptionIcon{
-            min-height: 80px;
-            max-height: 80px;
+            min-height: 85px;
+            max-height: 85px;
         }
 
         .contactUsOptionText{
@@ -128,25 +123,26 @@
         #contactUsOptionsContainer{
             min-height: 550px;
             max-height: 600px;
+            padding: 0.1%;
         }
 
         .contactUsOption{
-            min-height: 150px;
-            max-height: 200px;
-            max-width: 150px;
+            min-width: 145px;
+            max-width: 200px;
+            min-height: 180px;
+            max-height: 250px;
+            margin: 0.3%;
         }
 
         .contactUsOptionIcon{
-            min-height: 70px;
-            max-height: 70px;
-            margin-top: 10%;
+            min-height: 90px;
         }
 
         .contactUsOptionText{
             min-height: 25px;
             max-height: 25px;
-            font-size: 150%;
-            margin-top: 20%;
+            font-size: 190%;
+            margin-top: 5%;
         }
     }
 
@@ -162,25 +158,27 @@
         #contactUsOptionsContainer{
             min-height: 550px;
             max-height: 600px;
+            padding: 0.1%;
         }
 
         .contactUsOption{
-            min-height: 200px;
-            max-height: 200px;
-            max-width: 190px;
+            min-width: 145px;
+            max-width: 300px;
+            min-height: 180px;
+            max-height: 350px;
         }
 
         .contactUsOptionIcon{
-            min-height: 70px;
-            max-height: 70px;
-            margin-top: 10%;
+            margin-top: 5%;
+            min-height: 90px;
         }
 
         .contactUsOptionText{
             min-height: 25px;
             max-height: 25px;
-            font-size: 220%;
-            margin-top: 28%;
+            font-size: 300%;
+            margin-top: 20%;
+            margin-bottom: 10%;
         }
     }
 
@@ -199,22 +197,22 @@
         }
 
         .contactUsOption{
-            min-height: 250px;
-            max-height: 250px;
-            max-width: 220px;
+            min-height: 450px;
+            max-height: 500px;
+            min-width: 320px;
+            max-width: 550px;
         }
 
         .contactUsOptionIcon{
-            min-height: 70px;
-            max-height: 70px;
-            margin-top: 10%;
+            min-height: 90px;
+            margin-bottom: -3%;
         }
 
         .contactUsOptionText{
             min-height: 25px;
             max-height: 25px;
-            font-size: 255%;
-            margin-top: 35%;
+            font-size: 350%;
+            margin-top: 15%;
         }
     }
 
@@ -233,22 +231,21 @@
         }
 
         .contactUsOption{
-            min-height: 250px;
-            max-height: 250px;
-            max-width: 220px;
+            min-height: 500px;
+            max-height: 550px;
+            min-width: 320px;
+            max-width: 550px;
         }
 
         .contactUsOptionIcon{
-            min-height: 70px;
-            max-height: 70px;
-            margin-top: 10%;
+            min-height: 90px;
         }
 
         .contactUsOptionText{
             min-height: 25px;
             max-height: 25px;
-            font-size: 255%;
-            margin-top: 35%;
+            font-size: 400%;
+            margin-top: 10%;
         }
     }
 
@@ -268,22 +265,22 @@
         }
 
         .contactUsOption{
-            min-height: 300px;
-            max-height: 300px;
-            max-width: 250px;
+            min-height: 600px;
+            max-height: 620px;
+            min-width: 320px;
+            max-width: 550px;
+            margin-top: 3%;
         }
 
         .contactUsOptionIcon{
-            min-height: 70px;
-            max-height: 70px;
-            margin-top: 10%;
+            min-height: 90px;
         }
 
         .contactUsOptionText{
             min-height: 25px;
             max-height: 25px;
-            font-size: 300%;
-            margin-top: 45%;
+            font-size: 400%;
+            margin-top: 10%;
         }
     }
 
@@ -303,23 +300,23 @@
         }
 
         .contactUsOption{
-            min-height: 300px;
-            max-height: 300px;
-            max-width: 250px;
-        }
+        min-height: 600px;
+        max-height: 620px;
+        min-width: 320px;
+        max-width: 550px;
+        margin-top: 3%;
+    }
 
-        .contactUsOptionIcon{
-            min-height: 70px;
-            max-height: 70px;
-            margin-top: 10%;
-        }
+    .contactUsOptionIcon{
+        min-height: 90px;
+    }   
 
-        .contactUsOptionText{
-            min-height: 25px;
-            max-height: 25px;
-            font-size: 300%;
-            margin-top: 45%;
-        }
+    .contactUsOptionText{
+        min-height: 25px;
+        max-height: 25px;
+        font-size: 400%;
+        margin-top: 10%;
+    }
     }
 </style>
 
