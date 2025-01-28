@@ -67,6 +67,10 @@
         width: 20%;
         height: 100%;
         padding: 0.1%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .presentationIcon img{
@@ -87,7 +91,9 @@
 
     @media(max-width: 320px){
         .presentationText{
-            font-size: 180%;
+            min-height: 40px;
+            max-height: 50px;
+            font-size: 150%;
         }
     }
 
@@ -110,6 +116,17 @@
         font-size: 200%;
         margin-top: 2%;
     }
+
+    .presentationText{
+            min-height: 59px;
+            max-height: 60px;
+            font-size: 110%;
+        }
+
+    .presentationIcon{
+        min-height: 59px;
+        max-height: 60px;
+    }
     }
 
     @media(min-width: 481px) and (max-width: 768px){
@@ -119,6 +136,7 @@
         max-width: 600px;
         min-height: 90px;
         max-height: 90px;
+        margin-top: 2%;
     }
 
     #presentationSubtitle{
@@ -127,6 +145,7 @@
         max-width: 400px;
         min-height: 50px;
         max-height: 50px;
+        margin-bottom: 2%;
     }
 
     .presentationContent{
@@ -137,6 +156,17 @@
         max-height: 80px;
         margin-top: 1%;
     }
+
+    .presentationText{
+            min-height: 59px;
+            max-height: 80px;
+            font-size: 115%;
+        }
+
+    .presentationIcon{
+        min-height: 59px;
+        max-height: 65px;
+    }
     }
 
     @media(min-width: 769px) and (max-width: 960px){
@@ -146,6 +176,7 @@
         max-width: 600px;
         min-height: 100px;
         max-height: 100px;
+        margin-top: 2%;
     }
 
     #presentationSubtitle{
@@ -186,6 +217,11 @@
         max-width: 500px;
         margin-top: 2%;
     }    
+
+    .presentationIcon{
+        min-height: 70px;
+        max-height: 70px;
+    }
     }
 
     @media(min-width: 1025px) and (max-width: 1328px){
@@ -213,31 +249,13 @@
         max-height: 65px;
         margin-top: 1%;
     }
+
+    .presentationIcon{
+        max-height: 60px;
+        max-width: 80px;
+    }
     }
 
-    @media(min-width: 961px) and (max-width: 1024px){
-    #presentationTitle{
-        font-size: 200%;
-        min-width: 300px;
-        max-width: 850px;
-        min-height: 70px;
-        max-height: 100px;
-    }
-
-    #presentationSubtitle{
-        font-size: 150%;
-        min-height: 50px;
-        max-height: 70px;
-    }
-
-    .presentationContent{
-        font-size: 350%;
-        min-height: 70px;
-        max-height: 70px;
-        max-width: 500px;
-        margin-top: 2%;
-    }    
-    }
 
     @media(min-width: 1025px) and (max-width: 1328px){
     #presentationTitle{
@@ -264,6 +282,11 @@
         min-height: 65px;
         max-height: 65px;
         margin-top: 1%;
+    }
+
+    .presentationIcon{
+        max-height: 60px;
+        max-width: 80px;
     }
     }
 
@@ -292,6 +315,11 @@
         min-height: 65px;
         max-height: 65px;
         margin-top: 1%;
+    }
+
+    .presentationIcon{
+        max-height: 60px;
+        max-width: 80px;
     }
     }
 </style>
