@@ -370,10 +370,10 @@
         }
 
         .carrousellButton{
-            min-height: 40px;
-            max-height: 50px;
-            min-width: 40px;
-            max-width: 40px;
+            min-height: 60px;
+            max-height: 80px;
+            min-width: 60px;
+            max-width: 80px;
         }
     }
 </style>
