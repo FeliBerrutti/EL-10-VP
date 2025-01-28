@@ -121,6 +121,8 @@
 
         #mailFormContainer{
             margin-top: 20%;
+            min-height: 480px;
+            max-height: 580px;
         }
 
         .formCell{
