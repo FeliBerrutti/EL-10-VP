@@ -18,11 +18,7 @@
     #contactUsContainer{
         width: 100%;
         height: 100%;
-        padding: 0.1%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 18%;
+        padding: 1%;
     }
 
     #contactUsTitle{
@@ -34,12 +30,12 @@
 
     #contactUsOptionsContainer{
         width: 100%;
-        padding: 0.1%;
+        height: 70%;
+        padding: 1%;
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        margin-top: 25%;
     }
 
     .contactUsOption{
@@ -90,14 +86,18 @@
     }
 
     @media(max-width: 320px){
+        #contactUsContainer{
+            min-height: 530px;
+            max-height: 580px;
+        }
+
         #contactUsTitle{
             min-height: 50px;
             max-height: 50px;
         }
 
         #contactUsOptionsContainer{
-            min-height: 200px;
-            max-height: 200px;
+            min-height: 500px;
         }
 
         .contactUsOption{
@@ -126,8 +126,8 @@
         }
 
         #contactUsOptionsContainer{
-            min-height: 300px;
-            max-height: 320px;
+            min-height: 550px;
+            max-height: 600px;
         }
 
         .contactUsOption{
@@ -160,10 +160,8 @@
         }
 
         #contactUsOptionsContainer{
-            min-height: 400px;
-            max-height: 400px;
-            max-width: 700px;
-            margin-top: 5%;
+            min-height: 550px;
+            max-height: 600px;
         }
 
         .contactUsOption{
@@ -196,10 +194,8 @@
         }
 
         #contactUsOptionsContainer{
-            min-height: 400px;
-            max-height: 400px;
-            max-width: 700px;
-            margin-top: 3%;
+            min-height: 600px;
+            max-height: 600px;
         }
 
         .contactUsOption{
@@ -232,10 +228,8 @@
         }
 
         #contactUsOptionsContainer{
-            min-height: 400px;
-            max-height: 400px;
-            max-width: 700px;
-            margin-top: 3%;
+            min-height: 600px;
+            max-height: 600px;
         }
 
         .contactUsOption{
@@ -268,10 +262,9 @@
         }
 
         #contactUsOptionsContainer{
-            min-height: 500px;
+            min-height: 600px;
             max-height: 600px;
-            max-width: 1000px;
-            margin-top: 1%;
+            margin-top: 3%;
         }
 
         .contactUsOption{
@@ -304,10 +297,9 @@
         }
 
         #contactUsOptionsContainer{
-            min-height: 500px;
+            min-height: 600px;
             max-height: 600px;
-            max-width: 1000px;
-            margin-top: 1%;
+            margin-top: 3%;
         }
 
         .contactUsOption{

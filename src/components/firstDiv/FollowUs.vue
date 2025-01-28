@@ -16,12 +16,14 @@
 
 <style>
     #followUsContainer{
+        border: 2px solid green;
         width: 100%;
         height: 100%;
         padding: 1%;
     }
 
     #followUsOptionsContainer{
+        border: 2px solid green;
         width: 100%;
         height: 70%;
         padding: 1%;
