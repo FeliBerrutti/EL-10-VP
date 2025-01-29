@@ -5,8 +5,11 @@
                 <h2><b>¿Quienes somos?</b></h2>
             </div>
             <div id="aboutUsContent">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ipsa dolorem officia fugit, saepe fuga! Inventore voluptatibus ad pariatur quas, veritatis labore vitae quis ipsa quaerat assumenda. Omnis, sit rem.
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque blanditiis, illum est tempore temporibus magni perspiciatis itaque voluptatum, alias, deleniti vel quam beatae accusantium! Reiciendis fugiat magni a veniam ipsa.
+                <p>
+                    En El 10 de Villa Pueyrredón nos dedicamos al alquiler de volquetes.<br>
+                    Nuestro objetivo es satisfacer tus necesidades de limpieza y transporte de residuos.<br> 
+                    Limpiamos y retiramos escombros, tierra, residuos de obra, fábrica y podas. <br>
+                    Ofrecemos un servicio confiable y eficiente siempre a disposición de nuestros clientes. ¡Tu satisfacción es nuestra prioridad!.
                 </p>
             </div>
         </div>
