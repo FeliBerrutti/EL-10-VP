@@ -108,6 +108,7 @@
         #servicesContainer{
             min-height: 570px;
             max-height: 570px;
+            margin-top: 2%;
         }
 
         #aboutUsContainer{
@@ -146,6 +147,7 @@
         #servicesContainer{
             min-height: 500px;
             max-height: 500px;
+            margin-top: 2%;
         }
 
         #aboutUsContainer{
@@ -192,6 +194,7 @@
         #servicesContainer{
             min-height: 500px;
             max-height: 530px;
+            margin-top: 5%;
         }
 
         #aboutUsContainer{
@@ -238,6 +241,7 @@
     @media(min-width: 769px) and (max-width: 960px){
         #servicesContainer{
             min-height: 600px;
+            margin-top: 3%;
         }
 
         #aboutUsContainer{
@@ -286,6 +290,7 @@
         #servicesContainer{
             min-height: 900px;
             max-height: 950px;
+            margin-top: 2%;
         }
 
         #aboutUsContainer{
@@ -338,6 +343,7 @@
     @media(min-width: 1025px) and (max-width: 1328px){
         #servicesContainer{
             min-height: 600px;
+            margin-top: 2%;
         }
 
         #aboutUsContainer{
@@ -390,6 +396,7 @@
     @media(min-width: 1329px){
         #servicesContainer{
             min-height: 700px;
+            margin-top: 2%;
         }
 
         #aboutUsContainer{
