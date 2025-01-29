@@ -155,9 +155,16 @@
             max-width: 200px;
         }
 
+        .footerContentTitle{
+            min-width: 120px;
+            max-width: 120px;
+        }
+
         .footerOption{
-            min-height: 35px;
-            min-width: 150px;
+            min-height: 40px;
+            max-height: 40px;
+            min-width: 155px;
+            margin-top: 0;
         }
 
         .footerIcon{
@@ -187,13 +194,16 @@
             margin: 0;
         }
 
+        .footerContentTitle{
+            min-width: 120px;
+            max-width: 120px;
+        }
+
         .footerOption{
             min-height: 40px;
             max-height: 40px;
-            min-width: 100px;
-            max-width: 140px;
-            margin: 0;
-
+            min-width: 150px;
+            margin-top: 0;
         }
 
         .footerIcon{
@@ -225,6 +235,11 @@
             min-height: 250px;
             min-width: 155px;
             max-width: 200px;
+        }
+
+        .footerContentTitle{
+            min-width: 120px;
+            max-width: 120px;
         }
 
         .footerOption{
@@ -264,10 +279,16 @@
             max-width: 250px;
         }
 
+        .footerContentTitle{
+            min-width: 170px;
+            max-width: 190px;
+        }
+
         .footerOption{
             min-height: 40px;
             max-height: 40px;
-            min-width: 150px;
+            min-width: 170px;
+            max-width: 190px;
         }
 
         .footerIcon{
@@ -301,10 +322,16 @@
             max-width: 250px;
         }
 
+        .footerContentTitle{
+            min-width: 170px;
+            max-width: 190px;
+        }
+
         .footerOption{
             min-height: 40px;
             max-height: 40px;
-            min-width: 150px;
+            min-width: 170px;
+            max-width: 190px;
         }
 
         .footerIcon{
