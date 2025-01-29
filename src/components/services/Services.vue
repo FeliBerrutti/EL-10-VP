@@ -390,17 +390,20 @@
 
 <script setup>
     import { ref } from 'vue';
-    import fontIMG from '@/assets/font.jpg';
-    import truckImg from '@/assets/truck.jpg';
-    import wppIMG from '@/assets/wppLogo.png';
+    import piletas from '@/assets/PILETAS.png';
+    import podas from '@/assets/PODAS.png';
+    import demoliciones from '@/assets/DEMOLICIONES.png';
+    import galpones from '@/assets/GALPONES.png';
     import rightArrow from '@/assets/rightArrow.png';
     import leftArrow from '@/assets/leftArrow.png';
 
     const auxCarrousell = ref(0);
 
-    const servicesCarrousellImgs = [fontIMG,
-                                    truckImg,
-                                    wppIMG];
+    const servicesCarrousellImgs = [piletas,
+                                    podas,
+                                    demoliciones,
+                                    galpones
+    ];
     
     function handleCarrousellIMG(){
         return servicesCarrousellImgs[auxCarrousell.value];
