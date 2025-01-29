@@ -149,13 +149,13 @@
         }
 
         #aboutUsContainer{
-            min-height: 250px;
-            max-height: 250px;
+            min-height: 235px;
+            max-height: 235px;
         }
 
         #aboutUsContent{
-            min-height: 170px;
-            max-height: 175px;
+            min-height: 165px;
+            max-height: 150px;
             font-size: 90%;
         }
 
@@ -237,19 +237,22 @@
 
     @media(min-width: 769px) and (max-width: 960px){
         #servicesContainer{
-            min-height: 500px;
-            max-height: 600px;
+            min-height: 600px;
         }
 
         #aboutUsContainer{
+            border: 2px solid blue;
             max-width: 700px;
-            min-height: 170px;
-            max-height: 190px;
+            min-height: 200px;
+            max-height: 250px;
+            font-size: 120%;
+            margin-bottom: 3%;
         }
 
         #aboutUsContent{
+            border: 2px solid green;
+            min-height: 150px;
             max-height: 150px;
-            font-size: 100%;
         }
 
         #servicesCarrousellContainer{
@@ -288,14 +291,16 @@
         }
 
         #aboutUsContainer{
-            max-width: 750px;
-            min-height: 170px;
-            max-height: 190px;
+            max-width: 1200px;
+            min-height: 190px;
+            max-height: 370px;
+            font-size: 150%;
         }
 
         #aboutUsContent{
-            max-height: 150px;
-            font-size: 100%;
+            min-height: 128px;
+            max-height: 250px;
+            max-width: 850px;
         }
 
         #servicesCarrousellContainer{
@@ -338,14 +343,16 @@
         }
 
         #aboutUsContainer{
-            max-width: 900px;
-            min-height: 170px;
-            max-height: 190px;
+            max-width: 1200px;
+            min-height: 190px;
+            max-height: 370px;
+            font-size: 150%;
         }
 
         #aboutUsContent{
-            max-height: 150px;
-            font-size: 100%;
+            min-height: 128px;
+            max-height: 250px;
+            max-width: 850px;
         }
 
         #servicesCarrousellContainer{
@@ -390,11 +397,13 @@
         #aboutUsContainer{
             max-width: 1200px;
             min-height: 190px;
-            max-height: 190px;
+            max-height: 370px;
+            font-size: 150%;
         }
 
         #aboutUsContent{
             min-height: 128px;
+            max-height: 250px;
             max-width: 850px;
             font-size: 110%;
         }
