@@ -241,7 +241,6 @@
         }
 
         #aboutUsContainer{
-            border: 2px solid blue;
             max-width: 700px;
             min-height: 200px;
             max-height: 250px;
@@ -250,7 +249,6 @@
         }
 
         #aboutUsContent{
-            border: 2px solid green;
             min-height: 150px;
             max-height: 150px;
         }
