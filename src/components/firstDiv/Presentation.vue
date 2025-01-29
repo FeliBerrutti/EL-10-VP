@@ -115,6 +115,7 @@
     .presentationContent{
         font-size: 200%;
         margin-top: 2%;
+        font-size: 180%;
     }
 
     .presentationText{
