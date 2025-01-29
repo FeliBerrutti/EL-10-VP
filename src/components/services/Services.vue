@@ -127,6 +127,10 @@
             max-height: 200px;
         }
 
+        #carrousellIMG img{
+            min-height: 200px;
+            max-height: 200px;
+        }
 
         .carrousellButton{
             min-height: 35px;
@@ -158,6 +162,11 @@
         }
 
         #servicesCarrousell{
+            min-height: 190px;
+            max-height: 190px;
+        }
+
+        #carrousellIMG img{
             min-height: 190px;
             max-height: 190px;
         }
@@ -200,6 +209,11 @@
         }
 
         #servicesCarrousell{
+            min-height: 290px;
+            max-height: 290px;
+        }
+
+        #carrousellIMG img{
             min-height: 290px;
             max-height: 290px;
         }
@@ -249,6 +263,13 @@
             max-width: 630px;
         }
 
+        #carrousellIMG img{
+            min-height: 350px;
+            max-height: 390px;
+            min-width: 630px;
+            max-width: 630px;
+        }
+
         .carrousellButton{
             min-height: 50px;
             max-height: 50px;
@@ -259,7 +280,8 @@
 
     @media(min-width: 961px) and (max-width: 1024px){
         #servicesContainer{
-            max-height: 500px;
+            min-height: 900px;
+            max-height: 950px;
         }
 
         #aboutUsContainer{
@@ -287,6 +309,12 @@
             max-width: 790px;
         }   
 
+        #carrousellIMG img{
+            min-height: 550px;
+            max-height: 600px;
+            min-width: 790px;
+            max-width: 790px;
+        }
 
         #servicesCarrousellButtons{
             min-height: 35px;
@@ -331,6 +359,13 @@
             max-width: 790px;
         }
 
+        #carrousellIMG img{
+            min-height: 550px;
+            max-height: 600px;
+            min-width: 790px;
+            max-width: 790px;
+        }
+
         #servicesCarrousellButtons{
             min-height: 35px;
             max-height: 35px;
@@ -369,6 +404,13 @@
         }
 
         #servicesCarrousell{
+            min-height: 550px;
+            max-height: 600px;
+            min-width: 790px;
+            max-width: 790px;
+        }
+
+        #carrousellIMG img{
             min-height: 550px;
             max-height: 600px;
             min-width: 790px;
