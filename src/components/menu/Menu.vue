@@ -336,9 +336,9 @@
     import { ref } from 'vue';
     import { defineEmits } from 'vue';
     import icon from '@/assets/aprobado.png';
-    import mapsIcon from '@/assets/footerMAPS.png';
+    import mapsIcon from '@/assets/menuMAPS.png';
     import mailIcon from '@/assets/MAIL.png';
-    import fbIcon from '@/assets/footerIG.png'
+    import fbIcon from '@/assets/menuIG.png'
 
     const emit = defineEmits();
 
