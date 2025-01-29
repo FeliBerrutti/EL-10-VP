@@ -80,10 +80,16 @@
     }
 
     .footerContentTitle{
-        width: 45%;
-        text-align: center;
-        text-overflow: ellipsis;
-        white-space: nowrap;
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 2%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .footerOption{
@@ -91,7 +97,8 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        margin: 2%
+        margin: 2%;
+        color: rgb(146, 140, 140);
     }
 
     .footerOption:hover{
@@ -100,7 +107,8 @@
 
     .footerIcon{
         width: 15%;
-        margin-right: 2%;
+        margin-left: 12%;
+        margin-right: 3%;
     }
 
     .footerIcon img{
@@ -314,8 +322,8 @@
 </style>
 
 <script setup>
-    import icon from '@/assets/aprobado.png';
-    import mailIcon from '@/assets/MAIL.png';
+    import icon from '@/assets/footerAprobado.png';
+    import mailIcon from '@/assets/footerMAIL.png';
     import wppIcon from '@/assets/footerWPP.png';
     import mapsIcon from '@/assets/footerMAPS.png';
     import igIcon from '@/assets/footerIG.png';
