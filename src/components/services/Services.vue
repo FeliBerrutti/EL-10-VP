@@ -54,7 +54,6 @@
     #servicesCarrousellContainer{
         border-radius: 20px;
         width: 99%;
-        padding: 0.1%;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -194,14 +193,15 @@
         }
 
         #servicesCarrousellContainer{
-            max-width: 500px;
-            min-height: 235px;
-            max-height: 280px;
+            min-height: 300px;
+            max-height: 400px;
+            min-width: 380px;
+            max-width: 650px;
         }
 
         #servicesCarrousell{
-            min-height: 190px;
-            max-height: 250px;
+            min-height: 290px;
+            max-height: 290px;
         }
 
 
@@ -236,21 +236,24 @@
         }
 
         #servicesCarrousellContainer{
-            max-width: 500px;
-            min-height: 235px;
-            max-height: 280px;
+            min-width: 600px;
+            max-width: 900px;
+            min-height: 400px;
+            max-height: 500px;
         }
 
         #servicesCarrousell{
-            min-height: 190px;
-            max-height: 250px;
+            min-height: 350px;
+            max-height: 390px;
+            min-width: 630px;
+            max-width: 630px;
         }
 
         .carrousellButton{
-            min-height: 40px;
+            min-height: 50px;
             max-height: 50px;
-            min-width: 40px;
-            max-width: 40px;
+            min-width: 50px;
+            max-width: 50px;
         }
     }
 
@@ -271,15 +274,18 @@
         }
 
         #servicesCarrousellContainer{
-            max-width: 500px;
-            min-height: 235px;
-            max-height: 280px;
+            min-width: 800px;
+            max-width: 800px;
+            min-height: 600px;
+            max-height: 650px;
         }
 
         #servicesCarrousell{
-            min-height: 190px;
-            max-height: 250px;
-        }
+            min-height: 550px;
+            max-height: 600px;
+            min-width: 790px;
+            max-width: 790px;
+        }   
 
 
         #servicesCarrousellButtons{
@@ -288,10 +294,10 @@
         }
 
         .carrousellButton{
-            min-height: 40px;
-            max-height: 50px;
-            min-width: 40px;
-            max-width: 40px;
+            min-height: 60px;
+            max-height: 80px;
+            min-width: 60px;
+            max-width: 80px;
         }
     }
 
@@ -312,13 +318,17 @@
         }
 
         #servicesCarrousellContainer{
-            max-width: 550px;
-            min-height: 360px;
+            min-width: 800px;
+            max-width: 800px;
+            min-height: 600px;
+            max-height: 650px;
         }
 
         #servicesCarrousell{
-            min-height: 250px;
-            max-height: 250px;
+            min-height: 550px;
+            max-height: 600px;
+            min-width: 790px;
+            max-width: 790px;
         }
 
         #servicesCarrousellButtons{
@@ -327,10 +337,10 @@
         }
 
         .carrousellButton{
-            min-height: 40px;
-            max-height: 50px;
-            min-width: 40px;
-            max-width: 40px;
+            min-height: 60px;
+            max-height: 80px;
+            min-width: 60px;
+            max-width: 80px;
         }
     }
 
@@ -354,19 +364,19 @@
         #servicesCarrousellContainer{
             min-width: 800px;
             max-width: 800px;
-            min-height: 500px;
+            min-height: 600px;
+            max-height: 650px;
         }
 
         #servicesCarrousell{
-            min-height: 400px;
-            max-height: 400px;
-            min-width: 800px;
-            max-width: 800px;
+            min-height: 550px;
+            max-height: 600px;
+            min-width: 790px;
+            max-width: 790px;
         }
 
         #servicesCarrousellButtons{
             min-height: 60px;
-
         }
 
         .carrousellButton{
